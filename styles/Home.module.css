@@ -1,0 +1,90 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 0.8rem;
+  font-size: 7rem;
+  text-align: center;
+}
+
+.item {
+  width: 250px;
+}
+
+.label {
+  font-size: 1.3rem;
+  color: grey;
+  text-transform: uppercase;
+}
+
+/*
+ Clock's font size and item's width is reduced by 30% per screen size while label's font size is reduced by 20% per screen size 
+*/
+
+/* For large devices */
+@media only screen and (max-width: 1200px) {
+  .clock {
+    font-size: 4.9rem;
+  }
+
+  .item {
+    width: 175px;
+  }
+
+  .label {
+    font-size: 1.04rem;
+  }
+}
+
+/* For medium devices */
+@media only screen and (max-width: 992px) {
+  .clock {
+    font-size: 3.43rem;
+  }
+
+  .item {
+    width: 122.5px;
+  }
+
+  .label {
+    font-size: 0.832rem;
+  }
+}
+
+/* For small devices */
+@media only screen and (max-width: 768px) {
+  .clock {
+    font-size: 2.401rem;
+  }
+
+  .item {
+    width: 85.75px;
+  }
+
+  .label {
+    font-size: 0.6656rem;
+  }
+}
+
+/* For small devices */
+@media only screen and (max-width: 576px) {
+  .clock {
+    font-size: 1.6807rem;
+  }
+
+  .item {
+    width: 60.025px;
+  }
+
+  .label {
+    font-size: 0.53248rem;
+  }
+}
