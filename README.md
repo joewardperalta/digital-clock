@@ -1,2 +1,2 @@
 ## Live Clock
-A web based built-in standard clock built on NextJS.
+A web based standard clock built on NextJS.
